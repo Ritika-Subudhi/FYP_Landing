@@ -1,0 +1,193 @@
+.fyp__whatfyp {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(0deg, rgba(255, 209, 255, 1) 0%, rgba(114, 25, 88, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(0deg, rgba(255, 209, 255, 1) 0%, rgba(114, 25, 88, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(0deg, rgba(255, 209, 255, 1) 0%, rgba(114, 25, 88, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD1FF', endColorstr='#721958', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(0deg, rgba(255, 209, 255, 1) 0%, rgba(114, 25, 88, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(0deg, rgba(255, 209, 255, 1) 0%, rgba(114, 25, 88, 1) 100%);
+
+}
+
+.whatfyp-getstart h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 55px;
+/* or 117% */
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.shaded-div{
+    width: 170px;
+    height: 7.64px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.fyp__whatfyp-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.fyp__whatfyp-feature .fyp__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.fyp__whatfyp-feature .fyp__features-container_feature-text {
+    max-width: 700px;
+}
+
+.fyp__whatfyp-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+    margin-top: -1rem;
+}
+
+.fyp__whatfyp-heading h4 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+    margin-left: 500px;
+   
+}
+
+.fyp__whatfyp-image{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.fyp__whatfyp-image img {
+    width: 75%;
+    height: 75%;
+}
+
+.fyp__whatfyp-heading1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 2rem;
+    margin-top: -10rem;
+}
+
+.fyp__whatfyp-heading1 h4 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+    margin-left: 400px;
+   
+}
+.fyp__whatfyp-image1{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 10px;
+}
+
+.fyp__whatfyp-image1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.fyp__whatfyp-heading2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 2rem;
+    margin-top: -10rem;
+}
+
+.fyp__whatfyp-heading2 h4 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+    margin-right:150px;
+   
+}
+
+.fyp__whatfyp-image2{
+    flex: 1;
+    display: flex;
+    align-items: left;
+    margin-left: 0;
+}
+
+.fyp__whatfyp-image2 img {
+    width: 65%;
+    height: 65%;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .fyp__whatfyp-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .fyp__whatfyp-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .fyp__whatfyp-feature .fyp__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .fyp__whatfyp-feature .fyp__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .fyp__whatfyp-heading h4 {
+        font-size: 28px;
+        line-height: 40px;
+        
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .fyp__whatfyp-container .fyp__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

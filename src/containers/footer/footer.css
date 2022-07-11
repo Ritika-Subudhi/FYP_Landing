@@ -1,0 +1,124 @@
+.fyp__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(112.28deg, #8223E8 4.01%, #F49867 96.06%);
+}
+
+.fyp__footer-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.fyp__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    color:#011830    ;
+}
+
+.fyp__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.fyp__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.fyp__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.dyp__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+
+    margin-bottom: 1rem;
+}
+
+.fyp__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 20px;
+    color: rgb(247, 224, 224);
+}
+
+.fyp__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fyp__footer-links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: rgb(5, 5, 5);
+    margin-bottom: 0.9rem;
+}
+
+.fyp__footer-links_div p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: rgb(7, 7, 7);
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.fyp__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.fyp__footer-copyright p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: rgb(82, 79, 79);
+}
+
+@media screen and (max-width: 850px) {
+    .fyp__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fyp__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .fyp__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .fyp__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .fyp__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
